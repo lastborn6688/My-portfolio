@@ -18,10 +18,10 @@ const Portfolio = () => {
         }
     ]
   return (
-    <div name='portfolio' className='bg-gradient-to-b  via-gray-800 to-[rgb(29,39,54)] from-[rgb(5,5,5)] w-full text-white md:h-screen'>
+    <div id='Portfolio' className='bg-gradient-to-b  via-gray-800 to-[rgb(29,39,54)] from-[rgb(5,5,5)] w-full text-white md:h-screen'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8 '>
-                <p className='text-4xl font-bold inline border-b-4 border-gray-300'>Portfolio</p>
+                <p className='text-4xl font-bold inline border-b-4 border-gray-300 bg-gradient-to-r from-[rgb(23,93,213)] to-blue-200 bg-clip-text text-transparent'>Portfolio</p>
                 <p className='text-2xl py-6'>Check out some ofk my work here</p>
             </div>
             

@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect"
 const Home = () => {
   return (
     <div
-      name="home"
+      id="Home"
       className="w-full  h-screen bg-gradient-to-t from-[rgb(29,39,54)]  via-black to-black text-gray-100 "
     >
       <div className="max-w-screen-lg mx-auto lg:flex md:flex sm:flex-row items-center justify-evenly gap-7 h-full px-4 md:flex-row">
@@ -24,8 +24,8 @@ const Home = () => {
           <p className="text-gray-400 font-medium py-4 max-w-md text-3xl">
             Welcome to my Portfolio
           </p>
-          <div>
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-[rgb(181,89,25)] to-[rgb(44,11,10)] cursor-pointer gap-2 group ">
+          <div className="">
+            <button className="group shadow-lg shadow-[rgb(165,80,25)] border-2 border-black text-white w-fit justify-center px-6 py-3 my-2 flex items-center rounded-md  gap-2 group">
               Portfolio
               <span className="group-hover:rotate-90 duartion-500">
                 <FaArrowRight size={20} />
@@ -37,7 +37,7 @@ const Home = () => {
           <img
             src="src/images/hero image.jpg"
             alt="my profile"
-            className="md:h-[800px] md:w-[800px] sm:h-[300px] sm:w-[300px] lg:h-[400px] lg:w-[400px] shadow-[rgb(165,80,25)] shadow-2xl rounded-full object-cover items-center justify-center"
+            className="md:h-[800px] md:w-[800px] hidden lg:block   sm:h-[300px] sm:w-[300px] lg:h-[400px] lg:w-[400px] shadow-[rgb(165,80,25)] shadow-2xl rounded-full object-cover items-center justify-center"
           />
         </div>
       </div>

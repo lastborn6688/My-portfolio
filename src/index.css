@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
+@property --border-angle{
+  syntax:'<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
 
-
-@theme {
+@theme{
   --font-great-vibes: "Great Vibes", cursive;
   --color-primary: #4a90e2;
   --color-secondary: red;
+}
+@theme{
+    --animate-rotate-border: border-rotate 3s linear infinite;
 
+  @keyframes border-rotate {
+    to{
+      --border-angle: 360deg
+    }
+  }
 }
 
 
