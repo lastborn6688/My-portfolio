@@ -1,10 +1,9 @@
-import React from "react";
 import { FaHandshake } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <div
-      id="Contact"
+      id='Contact'
       className="bg-gradient-to-b to-[rgb(29,39,54)] via-gray-700 from-gray-800 w-full h-full p-4 text-white"
     >
       <div className="flex flex-col p-4  justify-center max-w-screen-lg mx-auto h-full">
