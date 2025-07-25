@@ -37,12 +37,12 @@ const Footer: React.FC = () => {
         <div className="bg-gradient-to-b from-gray-800 text-white via-gray-800 to-gray-700">
           <h3 className="text-lg font-semibold mb-3 text-white">Follow me <span  className="font-medium text-[12px]">on my social media platforms</span></h3>
           <div className="flex space-x-4">
-            <a href="#" aria-label="Facebook"><FaWhatsapp className="w-5 h-5 hover:animate-bounce hover:scale-150 hover:text-green-300" /></a>
-            <a href="#" aria-label="Twitter"><FaXTwitter  className="w-5 h-5 hover:animate-bounce hover:scale-150 hover:text-black" /></a>
-            <a href="#" aria-label="Instagram"><FaInstagram className="w-5 h-5 hover:animate-bounce hover:scale-150 hover:text-pink-500" /></a>
-            <a href="#" aria-label="Github"><FaGithub className="w-5 h-5 hover:animate-bounce hover:scale-150 hover:text-gray-800 hover:bg-white" /></a>
-            <a href="#" aria-label="LinkedIn"><FaLinkedinIn className="w-5 h-5 hover:animate-bounce hover:scale-150 hover:text-blue-700" /></a>
-            <a href="#" aria-label="Tiktok"><FaTiktok className="w-5 h-5 hover:animate-bounce hover:scale-150 hover:text-black"/></a>
+            <a href="#" aria-label="Facebook"><FaWhatsapp className="w-5 h-5 hover:scale-150 hover:text-green-300" /></a>
+            <a href="#" aria-label="Twitter"><FaXTwitter  className="w-5 h-5 hover:scale-150 hover:text-black" /></a>
+            <a href="#" aria-label="Instagram"><FaInstagram className="w-5 h-5 hover:scale-150 hover:text-pink-500" /></a>
+            <a href="#" aria-label="Github"><FaGithub className="w-5 h-5 hover:scale-150 hover:text-gray-800 hover:bg-white" /></a>
+            <a href="#" aria-label="LinkedIn"><FaLinkedinIn className="w-5 h-5 hover:scale-150 hover:text-blue-700" /></a>
+            <a href="#" aria-label="Tiktok"><FaTiktok className="w-5 h-5 hover:scale-150 hover:text-white hover:bg-black"/></a>
           </div>
         </div>
       </div>

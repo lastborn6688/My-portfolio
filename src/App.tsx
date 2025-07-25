@@ -9,7 +9,7 @@ import Footer from "./Component/Footer";
 
 const App = () => {
   return (
-    <div className="w-full">
+    <div className="">
       <NavBar />
       <Home />
       <About />

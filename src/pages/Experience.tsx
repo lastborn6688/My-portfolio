@@ -6,6 +6,8 @@ import react from '../images/react.png';
 import tailwind from '../images/tailwind.png';
 import nextjs from '../images/nextjs.png';
 import node from '../images/node.png';
+import post from '../images/post.png'
+import mongodb from '../images/mogodb.jpg'
 
 
 const Experience = () => {
@@ -50,6 +52,18 @@ const Experience = () => {
         id: 7,
         src: node,
         title: 'Node.js',
+        style: 'shadow-green-500',
+        },
+        {
+          id:8,
+          src: post,
+          title: 'Postman',
+          style: 'shadow-orange-500'
+        },
+        {
+        id: 9,
+        src: mongodb,
+        title: 'Mongodb',
         style: 'shadow-green-500',
         },
     ];

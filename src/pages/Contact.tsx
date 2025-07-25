@@ -22,7 +22,7 @@ const Contact = () => {
             <input
               type="text"
               name="name"
-              placeholder="Yourname eg: John Doe"
+              placeholder="Your name eg: John Doe"
               className="p2 py-3 px-2
             bg-transparent border-2   rounded-md text-white focus:outline-none"
             />
