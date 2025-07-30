@@ -33,13 +33,6 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="h-[400px] ml-24 w-[800px]">
-          <img
-            src="src/images/hero image.jpg"
-            alt="my profile"
-            className="md:h-[800px] md:w-[800px] hidden lg:block   sm:h-[300px] sm:w-[300px] lg:h-[400px] lg:w-[400px] shadow-[rgb(165,80,25)] shadow-2xl rounded-full object-cover items-center justify-center"
-          />
-        </div>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gradient-to-b from-gray-800 text-white via-gray-800 to-gray-700 px-6 py-10 ">
+    <footer className="bg-gradient-to-b from-gray-800 text-white via-gray-800 w-full to-gray-700 px-6 py-10 ">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         
         {/* Logo & About */}
@@ -35,12 +35,12 @@ const Footer: React.FC = () => {
 
         {/* Social Media */}
         <div className="bg-gradient-to-b from-gray-800 text-white via-gray-800 to-gray-700">
-          <h3 className="text-lg font-semibold mb-3 text-white">Follow me <span  className="font-medium text-[12px]">on my social media platforms</span></h3>
+          <h3 className="text-lg font-semibold mb-3 text-white">Connect with me on my social media platforms.</h3>
           <div className="flex space-x-4">
-            <a href="#" aria-label="Facebook"><FaWhatsapp className="w-5 h-5 hover:scale-150 hover:text-green-300" /></a>
-            <a href="#" aria-label="Twitter"><FaXTwitter  className="w-5 h-5 hover:scale-150 hover:text-black" /></a>
+            <a href="https://wa.me/message/5F3KSS5A7BIBJ1" aria-label="Facebook"><FaWhatsapp className="w-5 h-5 hover:scale-150 hover:text-green-300" /></a>
+            <a href="https://x.com/Lastborn1869998" aria-label="Twitter"><FaXTwitter  className="w-5 h-5 hover:scale-150 hover:text-black" /></a>
             <a href="#" aria-label="Instagram"><FaInstagram className="w-5 h-5 hover:scale-150 hover:text-pink-500" /></a>
-            <a href="#" aria-label="Github"><FaGithub className="w-5 h-5 hover:scale-150 hover:text-gray-800 hover:bg-white" /></a>
+            <a href="https://github.com/lastborn6688" aria-label="Github"><FaGithub className="w-5 h-5 hover:scale-150 hover:text-gray-800 hover:bg-white" /></a>
             <a href="#" aria-label="LinkedIn"><FaLinkedinIn className="w-5 h-5 hover:scale-150 hover:text-blue-700" /></a>
             <a href="#" aria-label="Tiktok"><FaTiktok className="w-5 h-5 hover:scale-150 hover:text-white hover:bg-black"/></a>
           </div>

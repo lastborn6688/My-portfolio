@@ -9,7 +9,7 @@ import Footer from "./Component/Footer";
 
 const App = () => {
   return (
-    <div className="">
+    <div>
       <NavBar />
       <Home />
       <About />
