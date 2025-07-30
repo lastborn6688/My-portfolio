@@ -25,13 +25,20 @@ const Home = () => {
             Welcome to my Portfolio
           </p>
           <div className="">
-            <button className="group shadow-lg shadow-[rgb(165,80,25)] border-2 border-black text-white w-fit justify-center px-6 py-3 my-2 flex items-center rounded-md  gap-2 group">
+            <button className="group shadow-lg shadow-blue-400 lg:shadow-[rgb(165,80,25)] border-2 border-black text-white w-fit justify-center px-6 py-3 my-2 flex items-center rounded-md  gap-2 group">
               Portfolio
               <span className="group-hover:rotate-90 duartion-500">
                 <FaArrowRight size={20} />
               </span>
             </button>
           </div>
+        </div>
+        <div className="h-none lg:h-[400px] lg:ml-24 ml-none w-none lg:w-[800px]">
+          <img
+            src="src/images/hero image.jpg"
+            alt="my profile"
+            className=" hidden lg:block   sm:h-[300px] sm:w-[300px] lg:h-[400px] lg:w-[400px] shadow-[rgb(165,80,25)] shadow-2xl rounded-full object-cover items-center justify-center"
+          />
         </div>
       </div>
     </div>
